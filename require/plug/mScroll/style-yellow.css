@@ -1,0 +1,24 @@
+.dw-yellow .dwwr{min-width:220px;background:#fff;color:#999;font-size:1pc}
+.dw-yellow .dwv{padding-top:.6666em;color:#b88949;text-transform:uppercase;font-size:.75em;line-height:2em;border-bottom:1px solid #f8f8f8}
+.dw-yellow .dwbc{display:block;overflow:hidden;border-top:1px solid #f8f8f8;text-align:center}
+.dw-yellow .dwbw{float:right;display:block;width:50%}
+.dw-yellow .dw-rtl .dwbw{float:left}
+.dw-yellow .dwb{padding:0 1em;height:2.5em;border-left:1px solid #f8f8f8;color:#b88949;text-transform:uppercase;line-height:2.5em}
+.dw-yellow .dwb-c .dwb{color:#9a9a9a}
+.dw-yellow .dw-bubble-bottom .dw-arr{border-color:transparent transparent #f7f7f7}
+.dw-yellow .dw-bubble-top .dw-arr{border-color:#f7f7f7 transparent transparent}
+.dw-yellow .dwl{color:#ffc000;text-transform:uppercase;font-size:.75em}
+.dw-yellow .dwhl{padding-top:0}
+.dw-yellow .dw-li{font-size:.28rem}
+.dw-yellow .dw-hl{background:rgba(78,204,196,.3)}
+.dw-yellow .dwwol{border-top:1px solid #d1a362;border-bottom:1px solid #d1a362;background-color:#f8e8d0}
+.dw-yellow .dwpm .dwwol{display:block}
+.dw-yellow .dwwb{background:#f7f7f7;color:#ffc000}
+.dw-yellow .dwwbp{top:auto;bottom:0}
+.dw-yellow .dwwbm{top:0;bottom:auto}
+.dw-yellow .dwwb span{display:none}
+.dw-yellow .dwwb:before{position:absolute;top:0;left:0;width:100%;text-align:center;font-size:24px}
+.dw-yellow .dwwb.dwb-a:before{background:rgba(78,204,196,.3)}
+.dw-yellow .dw-w-gr{font-size:1.125em}
+.dw-yellow .dw-msel:before{color:#ffc000;font-size:40px}
+.dw-yellow .dwwms .dwwol{display:none}
