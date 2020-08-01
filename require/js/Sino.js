@@ -97,6 +97,14 @@
     let TEST = w.location.href.substr(7, 10).indexOf(atob("LWludDI=")) > 0;
     //是否为服务器环境base64字符编码 atob("NDcuOTUuMjIxLjE2OQ==") === btoa("47.95.221.169")
     let PRD = w.location.host.indexOf(atob('NDcuOTUuMjIxLjE2OQ=='))>=0;
+    //是否为本地环境base64字符编码 atob("bG9jYWxob3N0==") === btoa("localhost")
+    let loc = w.location.host.indexOf(atob('bG9jYWxob3N0'))>=0;
+    //nginx主页路径从根目录找不到js
+    let indexName = 'index';
+    if((TEST || loc || PRD) && location.href === location.origin+"/"){//本地、测试、生产加下默认首页的路径
+        indexName = location.href+'index/js/'+indexName;
+    }
+
     //工具包
     fd.util = {
         //正则表达式
@@ -290,7 +298,7 @@
             return;
         }
         fd.sconfig.alias.index = idx + (idx.indexOf("?")===-1?"?":"&") + 'ver=1.0';
-        const IDX = () => fd.use(PRD?'http://47.95.221.169/index/js/index':'index', (obj = {}) => !obj.PROGRESSBAR && fd.propressBar());
+        const IDX = () => fd.use(indexName, (obj = {}) => !obj.PROGRESSBAR && fd.propressBar());
         if(fd.util.isWechat() && TEST ) {//测试环境打开手机console控制台
             fd.use("/js/vconsole", (vc) => new vc(IDX));
         }
