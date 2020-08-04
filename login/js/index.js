@@ -11,9 +11,10 @@ fd.define((require) => {
             msgLoginUser:'',
             msgLoginPassword:'',
         },
-        create:()=>{
+        created:()=>{
+            console.info("created:..");
         },
-        methods : {
+        methods: {
             //校验数据
             check:()=>{
                 let _this = fd.vm;
@@ -42,7 +43,7 @@ fd.define((require) => {
                 $.ajax({
                     contentType: "application/x-www-form-urlencoded; charset=UTF-8",
                     type:'GET',
-                    url:`http://47.95.221.169/SL_USER/userInfo/getUserPort.do?loginUser=${_this.loginUser}&loginPassword=${_this.loginPassword}`,
+                    url:`/SL_USER/userInfo/getUserPort.do?loginUser=${_this.loginUser}&loginPassword=${_this.loginPassword}`,
                     dataType:'json',
                     beforeSend:()=>{
                         if(!_this.check() || !_this.isSubmit){
@@ -55,6 +56,10 @@ fd.define((require) => {
                         console.info(JSON.stringify(result));
                         fd.layer.load.hide();
                         _this.isSubmit = true;
+                        if("N"===result.resultCode){
+                            fd.layer.msg('请输入正确的账号/密码', {icon: 4});
+                            return;
+                        }
                     },
                     error:(e,xhr,opt)=>{
                         fd.layer.load.hide();

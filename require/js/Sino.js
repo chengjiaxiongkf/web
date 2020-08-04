@@ -148,7 +148,7 @@
         fd.layer.load.show = (type)=>{
             fd.layer.load(type);
         }
-        //自定义一个隐藏加载框方法
+        //自定义一个隐藏加载框方法a
         fd.layer.load.hide = ()=>{
             $(".layui-layer-shade").hide();
             $(".layui-layer.layui-layer-loading").hide();

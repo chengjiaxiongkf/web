@@ -36,14 +36,13 @@
         fd.sconfig.alias = {
             "jquery": "plug/jquery/3.3.1/jquery.min{plug}", //jquery
             "vue": "plug/vue/2.6.11/vue.min{plug}",          //vue
+            "layui":"plug/layUI/2.5.6/layui/layui.all{plug}",//layUI页面组件
             "mScroll": "js/plug/mScroll/load{plug}",    //滚动
-            "touch": "plug/touch/0.2.14/touch.min{plug}",   //移动端手势
+            "touch": "plug/touch/0.2.14/touch.min{plug}",   //移动端手势组件
             "validate": "plug/validate/1.19.0/validate.min{plug}",  //校验
             "firstChar": "plug/firstChar/charfirst{plug}",     //获取中文首字母排序
-            "capture": "plug/html2canvas/html2canvas{plug}",  //画图
-            "qrcode": "plug/qrcode/qrcode{plug}",            //二维码
-            "industry": "plug/industry/2.0/industry{plug}",   //行业职业
-            "layui":"plug/layUI/2.5.6/layui/layui.all{plug}",//layUI
+            "capture": "plug/html2canvas/html2canvas{plug}",  //图片画板
+            "qrcode": "plug/qrcode/qrcode{plug}",            //二维码生成
         };
         fd.path = location.pathname.replace(/\/[^\/]*$/g, '/');//中间部分
         let scripts = doc.getElementsByTagName("script");
