@@ -1,5 +1,7 @@
 fd.define((require) => {
     "use strict";//严格模式
+    require('vue');
+    require('layui');
     let vm = new Vue({
         el:'#vueDiv',
         data:{
@@ -49,7 +51,7 @@ fd.define((require) => {
                         if(!_this.check() || !_this.isSubmit){
                             return false;//取消请求
                         }
-                        fd.layer.load.show();
+                        layer.load(0);
                         _this.isSubmit = false;//不可提交
                     },
                     success:(result)=>{
@@ -57,7 +59,7 @@ fd.define((require) => {
                         fd.layer.load.hide();
                         _this.isSubmit = true;
                         if("N"===result.resultCode){
-                            fd.layer.msg('请输入正确的账号/密码', {icon: 4});
+                            layer.msg('请输入正确的账号/密码', {icon: 4});
                             return;
                         }
                     },

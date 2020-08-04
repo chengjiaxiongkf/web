@@ -137,23 +137,17 @@
     /**
      * 加入基础的jquery跟vue
      */
-    fd.use(['jquery','vue','layui'], ($) => {
-        //layui中的全局变量加入到fd
-        fd.layui = layui;
-        fd.layer = layer;
-        //取消掉全局变量
-        layui = undefined;
-        layer = undefined;
-        //自定义一个显示加载框方法
-        fd.layer.load.show = (type)=>{
-            fd.layer.load(type);
-        }
+    fd.use(['jquery'], ($) => {
         //自定义一个隐藏加载框方法a
-        fd.layer.load.hide = ()=>{
-            $(".layui-layer-shade").hide();
-            $(".layui-layer.layui-layer-loading").hide();
-        }
-
+        let layer = {
+            load: {
+                hide:()=>{
+                    $(".layui-layer-shade").hide();
+                    $(".layui-layer.layui-layer-loading").hide();
+                }
+            }
+        };
+        fd.layer = layer;
         // console.warn('将根据已有的meta标签来设置缩放比例');
         $("input").keyup(function(){
             $(this).val($(this).val().replace(/[ ]/g,""));
