@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af05a779-8b29-4aa2-90dc-3045869a80d9" name="Default Changelist" comment="登陆增加提示信息">
+      <change beforePath="$PROJECT_DIR$/index/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/html/index.html" afterDir="false" />
+    </list>
+    <list id="7df5adf3-92d9-460c-850d-48e7f8926e6a" name="Revert &quot;first submit&quot;" comment="222222" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fGUep4mK1DiDZfFdCsgQhiKkqw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/require/plug/layUI" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\web_work\require\plug\layUI\2.5.6" />
+      <recent name="D:\work\web_work\require\plug\layUI" />
+      <recent name="D:\work\web_work\require\js" />
+      <recent name="D:\work\web_work" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\web_work\require\plug\layUI" />
+      <recent name="D:\work\web_work\require\plug\loadingShow\1.0.0\js" />
+      <recent name="D:\work\web_work\require\plug\loadingShow\1.0.0" />
+      <recent name="D:\work\web_work\require\plug" />
+      <recent name="D:\work\web_work\require" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web_work/login/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web_work/index/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web_work/index/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/web_work/login/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af05a779-8b29-4aa2-90dc-3045869a80d9" name="Default Changelist" comment="" />
+      <created>1595844020505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595844020505</updated>
+      <workItem from="1595844022754" duration="1710000" />
+      <workItem from="1595846159878" duration="10106000" />
+      <workItem from="1595857804326" duration="2373000" />
+      <workItem from="1596038009107" duration="1199000" />
+      <workItem from="1596168059415" duration="5000" />
+      <workItem from="1596168834726" duration="778000" />
+      <workItem from="1596170308089" duration="26994000" />
+      <workItem from="1596201511999" duration="22000" />
+      <workItem from="1596201654846" duration="347000" />
+      <workItem from="1596202172014" duration="324000" />
+      <workItem from="1596202508031" duration="365000" />
+      <workItem from="1596202885325" duration="301000" />
+      <workItem from="1596203454598" duration="304000" />
+      <workItem from="1596203775421" duration="302000" />
+      <workItem from="1596204094776" duration="305000" />
+      <workItem from="1596204425935" duration="304000" />
+      <workItem from="1596204841355" duration="7035000" />
+      <workItem from="1596212462061" duration="14293000" />
+      <workItem from="1596459051727" duration="2045000" />
+      <workItem from="1596514955387" duration="3541000" />
+    </task>
+    <task id="LOCAL-00001" summary="first submit">
+      <created>1595854949276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595854949276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first submit">
+      <created>1595855466973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595855466973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first submit">
+      <created>1595856138134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595856138134</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;first submit&quot;&#10;&#10;This reverts commit 29aaea26">
+      <created>1595856212924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595856212924</updated>
+    </task>
+    <task id="LOCAL-00005" summary="index submit">
+      <created>1595858115713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595858115713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="公共js框架">
+      <created>1596222411115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596222411115</updated>
+    </task>
+    <task id="LOCAL-00007" summary="公共js框架增加nginx访问默认路径，根目录访问../../引用不到js的问题">
+      <created>1596279472558</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596279472558</updated>
+    </task>
+    <task id="LOCAL-00008" summary="登陆增加提示信息">
+      <created>1596520689028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596520689028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="登陆增加提示信息">
+      <created>1596521712261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596521712261</updated>
+    </task>
+    <task id="LOCAL-00010" summary="登陆增加提示信息">
+      <created>1596625292700</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596625292700</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../github/web" />
+    </ignored-roots>
+    <MESSAGE value="Revert &quot;first submitddasdad&quot;&#10;&#10;This reverts commit a10673fe" />
+    <MESSAGE value="first submit" />
+    <MESSAGE value="Revert &quot;first submit&quot;&#10;&#10;This reverts commit 29aaea26" />
+    <MESSAGE value="index submit" />
+    <MESSAGE value="公共js框架" />
+    <MESSAGE value="公共js框架增加nginx访问默认路径，根目录访问../../引用不到js的问题" />
+    <MESSAGE value="登陆增加提示信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆增加提示信息" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596176153433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596176153433" />
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1595856255010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595856255010" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1596170160869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1596170160869" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1596215456089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596215456089" />
+    <state x="579" y="331" key="Github.CreateGistDialog" timestamp="1595846394917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="331" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1595846394917" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1596186585930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596186585930" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1596186585930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596186585930" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1596186585930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596186585930" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1596186585930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596186585930" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1596186585930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596186585930" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.2.bottom" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.2.center" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.2.left" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state width="1515" height="261" key="GridCell.Tab.2.right" timestamp="1596186585931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1596186585931" />
+    <state x="403" y="172" key="MultipleFileMergeDialog" timestamp="1595855842636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="172" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1595855842636" />
+    <state x="511" y="113" key="RollbackChangesDialog" timestamp="1596170177459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596170177459" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1596174702152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596174702152" />
+    <state x="614" y="325" key="VCS.ChangelistChooser" timestamp="1595856279354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="325" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1595856279354" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596625302703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596625302703" />
+    <state x="467" y="144" width="602" height="536" key="find.popup" timestamp="1596193904264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="144" width="602" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596193904264" />
+    <state x="470" y="199" key="git4idea.merge.GitPullDialog" timestamp="1595855783024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1595855783024" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1596216274575">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1596216274575" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596521346285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596521346285" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web_work$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1595858077562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
