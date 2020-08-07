@@ -39,6 +39,9 @@ fd.define((require) => {
     //发送消息
     $("#submit").on('click',()=>{
         let text = $("#text").val();
+        if(fd.isEmpty(text)){
+            return;
+        }
         $("#msgs").append($("#guestTempl").html()
             .replace("DATE_TIME",new Date().dateFormat("yyyy-mm-dd hh:mm:ss"))
             .replace("CONTEXT",text));
