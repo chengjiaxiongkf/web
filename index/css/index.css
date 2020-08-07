@@ -10,7 +10,7 @@ body {
     height:60px;
     margin:0 auto;
     text-align:center;
-    color:red;
+    color:#FFF;
 }
 .nav.ul li{
     display:inline;
@@ -21,8 +21,10 @@ body {
     padding:0 2px;
     height:60px;
     line-height:60px;
-    color:#FFF;
     font-size:16px
+}
+.top{
+    color: red;
 }
 .nav.ul li a:hover{ /*设置鼠标滑过或悬停时变化的背景颜色*/
     background:#0095BB

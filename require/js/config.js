@@ -43,6 +43,7 @@
             "firstChar": "plug/firstChar/charfirst{plug}",     //获取中文首字母排序
             "capture": "plug/html2canvas/html2canvas{plug}",  //图片画板
             "qrcode": "plug/qrcode/qrcode{plug}",            //二维码生成
+            "websocket":"plug/websocket/1.0.0/websocket{plug}",//websocket连接
         };
         fd.path = location.pathname.replace(/\/[^\/]*$/g, '/');//中间部分
         let scripts = doc.getElementsByTagName("script");

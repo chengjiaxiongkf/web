@@ -1,0 +1,132 @@
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="full-screen" content="yes">
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+    <base target="_blank">
+    <title>会话_祖龙娱乐聊天机器人</title>
+    <link rel="stylesheet" href="../../require/css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body lang="zh">
+    <img width="100%" height="100%" src="../images/14.jpg">
+    <div class="abs cover contaniner">
+        <div class="abs cover pnl">
+            <div class="top pnl-head" style="background-image: url(../images/2.jpg);"></div>
+            <div class="abs cover pnl-body" id="pnlBody">
+                <div class="abs cover pnl-left">
+                    <div class="abs cover pnl-msgs scroll" id="show">
+                        <div class="msg min time" id="histStart">加载历史消息</div>
+                        <div class="pnl-list" id="hists">
+                            <!-- 历史消息 -->
+                        </div>
+                        <div class="pnl-list" id="msgs">
+                            <div class="msg robot">
+                                <div class="msg-left" id="welcomeLeft" worker="智能客服服务">
+                                    <div class="msg-host photo" id="welcomeIcon"></div>
+                                    <div class="msg-ball" id="welcomeBall"><span>欢迎来到智能客服服务,您可以发送help以获取帮助</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pnl-list hide" id="unreadLine">
+                            <div class="msg min time unread">未读消息</div>
+                        </div>
+                    </div>
+                    <div class="abs bottom pnl-text">
+                        <div class="abs bottom pnl-ext hide" id="pnlExt">
+                            <div class="emoji-pnl scroll hide" id="emojiPnl">
+                                <img class="emoji-item" key="/::<>" src="http://static.v5kf.com/images/emoji/qq/2009426203723341.gif" />
+                                <img class="emoji-item" key="/::<>" src="http://static.v5kf.com/images/emoji/qq/2009426203723341.gif" />
+                            </div>
+                        </div>
+                        <div class="ques-pnl scroll hide" id="quesPnl">
+                            <ul class="questions unselect" id="ques"></ul>
+                        </div>
+                        <div class="abs top pnl-warn" id="pnlWarn">
+                            <div class="fl btns rel pnl-warn-free">
+                                <i class="kh warn-btn send-btn" style="color: rgb(32, 196, 202);" title="发送" id="sendBtn" ></i>
+                            </div>
+                            <div class="fl btns rel pnl-warn-left" id="pnlBtns">
+                                <div class="pnl-warn-btns">
+                                    <i class="kh warn-btn hide" title="常见问题" id="quesBtn"></i>
+                                    <i class="kh warn-btn" title="图片上传" id="uploadBtn"></i>
+                                    <i class="kh warn-btn" style="display:none;" title="视频" id="videoBtn"></i>
+                                    <i class="kh warn-btn" style="display:none;" title="语音" id="voiceBtn"></i>
+                                    <i class="kh warn-btn" style="display:none;" title="拍照上传" id="cameraBtn"></i>
+                                    <i class="kh warn-btn" title="截图提示" id="scrshot"></i>
+                                    <i class="kh warn-btn" title="评价" id="evalBtn"></i>
+                                    <i class="kh warn-btn" title="我要留言" id="msgBtn"></i>
+                                    <i class="kh warn-btn" title="提示音" id="voiceMbBtn"></i>
+                                    <i class="kh warn-btn" title="转人工" id="humanBtn">转人工</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="scroll" id="text" wrap="hard" placeholder="在此输入..."></input>
+                            <div class="abs atcom-pnl scroll hide" id="atcomPnl">
+                                <ul class="atcom" id="atcom">
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="abs br" id="submit" style="background-color: rgb(32, 196, 202); color: rgb(255, 255, 255);">发送</div>
+                        <div class="pnl-support" id="copyright"><a href="#">祖龙娱乐</a></div>
+                    </div>
+                </div>
+                <div class="abs right pnl-right">
+                    <div class="slider-container hide"></div>
+                    <div class="pnl-right-content">
+                        <div class="pnl-tabs">
+                            <div class="tab-btn active" id="hot-tab">常见问题</div>
+                            <div class="tab-btn" id="rel-tab">相关问题</div>
+                        </div>
+                        <div class="pnl-hot">
+                            <ul class="rel-list unselect" id="hots">
+                                <!-- <li class="rel-item">这是一个问题，这是一个问题？</li> -->
+                            </ul>
+                        </div>
+                        <div class="pnl-rel" style="display: none;">
+                            <ul class="rel-list unselect" id="rels">
+                                <!-- <li class="rel-item">这是一个问题，这是一个问题？</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<template id="robotTempl">
+    <div class="msg robot">
+        <div class="msg-left" id="welcomeLeft" worker="智能客服机器人">
+            <div class="msg-host photo" id="welcomeIcon"></div>
+            <div class="msg-ball" id="welcomeBall"><span>CONTEXT</span></div>
+        </div>
+    </div>
+</template>
+<template id="guestTempl">
+    <div class="msg guest">
+        <div class="msg-right" customer="游客">
+            <div class="msg-host">
+                <i class="ic kh"></i>
+            </div>
+            <div class="msg-ball" title="DATE_TIME">CONTEXT
+            </div>
+        </div>
+    </div>
+</template>
+<script type="text/javascript" data-main="../js/index.js" src="../../require/js/config.js?ver=1.0"></script>
+</html>
