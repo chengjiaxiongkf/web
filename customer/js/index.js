@@ -1,7 +1,7 @@
 fd.define((require) => {
     "use strict";//严格模式
     require('websocket');
-    websocket = websocket.newWebsocket("localhost:8020/webSocket/customer");
+    websocket = websocket.newWebsocket(location.hostname+":8020/webSocket/customer");
     //连接关闭的回调方法
     websocket.onclose =  ()=> {
         console.info("连接关闭的回调");
