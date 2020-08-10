@@ -96,7 +96,7 @@ fd.define((require) => {
                             if("账号已存在"===result.resultCode){
                                 result.resultCode = "账号已被注册";
                             }
-                            layer.msg(result.resultCode, {icon: 0});
+                            layer.msg(result.resultMsg, {icon: 0});
                             return;
                         }
                         layer.msg('注册成功', {icon: 1});
