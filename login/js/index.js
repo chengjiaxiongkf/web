@@ -39,13 +39,14 @@ fd.define((require) => {
                 }
                 return true;
             },
-            //dom参数点击的dom元素
+            //登陆请求
             loginSubmit:()=>{
                 let _this = fd.vm;
                 $.ajax({
                     contentType: "application/x-www-form-urlencoded; charset=UTF-8",
-                    type:'GET',
-                    url:`/SL_USER/userInfo/getUserPort.do?loginUser=${_this.loginUser}&loginPassword=${_this.loginPassword}`,
+                    type:'POST',
+                    url:`/SL_LOGIN/login/checkLogin.do`,
+                    data:{'loginUser':_this.loginUser,'loginPassword':_this.loginPassword},
                     dataType:'json',
                     beforeSend:()=>{
                         if(!_this.check() || !_this.isSubmit){
@@ -62,6 +63,43 @@ fd.define((require) => {
                             layer.msg('请输入正确的账号/密码', {icon: 4});
                             return;
                         }
+                        location.href = '/';//跳转到首页
+                    },
+                    error:(e,xhr,opt)=>{
+                        fd.layer.load.hide();
+                        _this.isSubmit = true;
+                        console.info    ("Error requesting " + opt.url + ": " + xhr.status + " " + xhr.statusText);
+                    }
+                });
+            },
+            //注册请求
+            register:()=>{
+                let _this = fd.vm;
+                $.ajax({
+                    contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                    type:'POST',
+                    url:`/SL_LOGIN/login/register.do`,
+                    data:{'loginUser':_this.loginUser,'loginPassword':_this.loginPassword},
+                    dataType:'json',
+                    beforeSend:()=>{
+                        if(!_this.check() || !_this.isSubmit){
+                            return false;//取消请求
+                        }
+                        layer.load(0);
+                        _this.isSubmit = false;//不可提交
+                    },
+                    success:(result)=>{
+                        console.info(JSON.stringify(result));
+                        fd.layer.load.hide();
+                        _this.isSubmit = true;
+                        if("N"===result.resultCode){
+                            if("账号已存在"===result.resultCode){
+                                result.resultCode = "账号已被注册";
+                            }
+                            layer.msg(result.resultCode, {icon: 0});
+                            return;
+                        }
+                        layer.msg('注册成功', {icon: 1});
                     },
                     error:(e,xhr,opt)=>{
                         fd.layer.load.hide();
